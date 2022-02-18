@@ -1,0 +1,59 @@
+* {    
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: coral;
+    height: 3rem;
+}
+.container-body{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+.container-main{
+    display: flex;
+    flex-flow: row;
+    height: 100%;
+}
+#index{
+    background-color: greenyellow;
+    height: 100%;
+    width: 4rem;
+}
+main{
+    background-color: rgb(168, 165, 165);
+    height: 100%;
+    flex-grow: 1;
+}
+#products{
+    margin-top: 2rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#products article{
+    background-color: rgb(226, 163, 85);
+    width: 8rem;
+    height: 10rem;
+    margin: 1rem;
+}
+#shop{
+    background-color: antiquewhite;
+    height: 100%;
+    flex-grow: .4;
+}
+footer{
+    background-color: aqua;
+    position: fixed;
+    bottom: 0;
+    height: 3rem;
+    width: 100%;
+}
