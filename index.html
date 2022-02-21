@@ -1,63 +1,119 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>SHOPPING CARD</title>
-        <link rel="stylesheet" href="css.css">
-    </head>
-    <body>
-        <div class="container-body">
 
-            <nav id="barra"> <h1> SHOOPING CARD </h1> </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPPING CARD</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
 
-            <div class="container-main">
-                <aside id="index">
-                    index
-                </aside>
+<body>
+    <div class="container-body">
+        <nav id="barra">
+            <h1> SHOOPING CARD </h1>
+        </nav>
+        <div class="container-main">
+            <aside id="index">
+                <button> A </button>
+                <button> B </button>
+                <button> G </button>
+                <button> Y </button>
+                <button> Z </button>
+                <button> U </button>
 
-                <main>
-                    <section id="search">
-                        <button>search</button>
-                        <input type="text" id="tex">
-                    </section>
+            </aside>
+            <main>
+                <section class="search">
+                    <button><span class="material-icons">
+                        search
+                        </span></button>
+                    <input type="text" placeholder="Buscar">
+                    <span id="new"> NEW
+                        <span   class="material-icons">
+                        library_add
+                        </span></span>
+                </section>
+                <section class="products">
+                    <article><img src="image/gamer1.jpg"></article>
+                    <article><img src="image/gamer2.png"></article>
+                    <article><img src="image/gamer3.jpg"></article>
+                    <article><img src="image/gamer4.jpg"></article>
+                    <article><img src="image/gamer1.jpg"></article>
+                    <article><img src="image/gamer2.png"></article>
+                    <article><img src="image/gamer3.jpg"></article>
+                    <article><img src="image/gamer4.jpg"></article>
+                    <article><img src="image/gamer1.jpg"></article>
+                    <article><img src="image/gamer2.png"></article>
+                    <article><img src="image/gamer3.jpg"></article>
+                    <article><img src="image/gamer4.jpg"></article>
+                    <article><img src="image/gamer1.jpg"></article>
+                    <article><img src="image/gamer2.png"></article>
+                    <article><img src="image/gamer3.jpg"></article>
+                    <article><img src="image/gamer4.jpg"></article>
+                    <article><img src="image/gamer1.jpg"></article>
+                    <article><img src="image/gamer2.png"></article>
+                    <article><img src="image/gamer3.jpg"></article>
+                    <article><img src="image/gamer4.jpg"></article>
+                    <article><img src="image/gamer1.jpg"></article>
+                    <article><img src="image/gamer2.png"></article>
+                    <article><img src="image/gamer3.jpg"></article>
+                    <article><img src="image/gamer4.jpg"></article>
 
-                    <section id="products">
 
-                        <article>ARTICLE 1</article>
-                        <article>ARTICLE 2</article>
-                        <article>ARTICLE 3</article>
-                        <article>ARTICLE 4</article>                      
-                         
-                    </section>
-                </main>
-
-                <aside class="shop">
-
-                    <h3 id="cabecera">SALES INVOICE</h3>
-                    <article>ARTICLE 1</article>
-                    <article>ARTICLE 2</article>
-                    <article>ARTICLE 3</article>
-                    <article>ARTICLE 4</article>
-
-                    <footer>
-
-                        <div class="sale_button">
-                            <button> VENDER </button>
-                            <h4>$290.000,00</h4>
-                        </div>
-
-                        <div class="cancelar">
-                            <h4>2 PRODUCTOS </h4>
-                            <button>CANCELAR</button>
-                        </div>
-
-                    </footer>
-
-                </aside>
-            </div>
+                </section>
+            </main>
+            <aside class="shop">
+                <h3 id="cabecera">SALES INVOICE</h3>
+                <div class="data">
+                    <article>
+                        <small>
+                            Moneda
+                        </small>
+                        <input type="text" placeholder="COP">
+                    </article>
+                    <article>
+                        <small>
+                            Lista de precios
+                        </small>
+                        <input type="text" placeholder="GENERAL">
+                    </article>
+                    <article>
+                        <small>
+                            Datos Cliente
+                        </small>
+                        <input type="text" placeholder="Documento">
+                    </article>
+                    <article>
+                        <small>
+                            ㅤ
+                        </small>
+                        <input type="text" placeholder="Nombre">
+                    </article>
+                </div>
+                <div class="articulo">
+                    <article><span> n <br><small>n</small></span></article>
+                    <button>➕</button>
+                    <button> 1 </button>
+                    <button>➖</button>
+                    <article>n</article>
+                    <button>🗑️</button>
+                </div>
+                <footer>
+                    <div class="sale_button">
+                        <button> VENDER </button>
+                        <h4>$290.000,00</h4>
+                    </div>
+                    <div class="cancelar">
+                        <h4>2 PRODUCTOS </h4>
+                        <button>CANCELAR</button>
+                    </div>
+                </footer>
+            </aside>
         </div>
+    </div>
+</body>
 
-    </body>
 </html>
