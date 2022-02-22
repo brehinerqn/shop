@@ -23,14 +23,14 @@ nav{
     flex-flow: row;
     height: 100%;
 }
-#index{
+.index{
     background-color: white;
     height: 100%;
     width: 4rem;
     display: flex;
     flex-flow: column;
 }
-#index button{
+.index button{
     border-radius: 2rem;
     height: 3rem;
     width: 3rem;
@@ -58,7 +58,8 @@ main{
     width: 12rem;
     height: 18rem;
     margin: 4rem;
-    border: solid 2px red;
+    border: solid 2px #00b19d;
+    
 }
 .shop{
     background-color: #ffffff;
@@ -173,6 +174,8 @@ footer{
     height: 12rem;
     width:90% ;
     margin: 0.5rem;
+    position: relative;
+    top: -20px;
 }
 .search input{
     width: 60%;
@@ -195,5 +198,22 @@ footer{
 }
 #new{
     color: #00b19d;
+}
+.products article figcaption{
+    justify-content: center;
+    text-align: center;
+}
+.products article div{
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    color: #00b19d ;
+    z-index: 1000000;
+    background-color: white;
+    width: 3rem;
+    text-align: left;
+    left: 7px;
+    top: 25px;
+    border: #00b19d solid 2px;
 }
 
