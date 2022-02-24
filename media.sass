@@ -1,5 +1,5 @@
-@media(max-width: 580px)
-    .products   
+@media(min-width: 380px)
+    .products
         margin: 0
         justify-content: center
     .shop
@@ -7,7 +7,7 @@
         z-index: 1000
         width: 100%
         right: 0
-        height:  calc(100%-3.5rem) 
+        height: calc(100%-3.5rem)
         visibility: hidden
         display: none
 
@@ -15,4 +15,35 @@
         display: none
     .search input
         width: 50%
+@media(min-width: 380px)and(max-width: 580px)
+    .products
+        margin: 0
+        justify-content: center
+    .shop
+        position: absolute
+        z-index: 1000
+        width: 100%
+        right: 0
+        height: calc(100%-3.5rem)
+        visibility: hidden          
+    
+    .search input
+        width: 50%
+
+@media(min-width: 580px)and(max-width: 780px)
+    .products
+        margin: 0
+        justify-content: center
+    .shop
+        position: absolute
+        z-index: 1000
+        width: 100%
+        right: 0
+        height: calc(100%-3.5rem)
+        visibility: hidden
+     
+
+    .index
         
+    .search input
+        width: 50%

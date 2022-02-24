@@ -1,4 +1,4 @@
-@media (max-width: 580px) {
+@media (min-width: 380px) {
   .products {
     margin: 0;
     -webkit-box-pack: center;
@@ -16,6 +16,46 @@
   }
   .index {
     display: none;
+  }
+  .search input {
+    width: 50%;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 580px) {
+  .products {
+    margin: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .shop {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    right: 0;
+    height: calc(100%-3.5rem);
+    visibility: hidden;
+  }
+  .search input {
+    width: 50%;
+  }
+}
+
+@media (min-width: 580px) and (max-width: 780px) {
+  .products {
+    margin: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .shop {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    right: 0;
+    height: calc(100%-3.5rem);
+    visibility: hidden;
   }
   .search input {
     width: 50%;
