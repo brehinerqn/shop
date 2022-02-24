@@ -154,7 +154,7 @@ footer {
   display: flex;
   position: absolute;
   height: 2rem;
-  width: 28%;
+  width: 32%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -177,7 +177,7 @@ footer {
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  width: 26.8%;
+  width: 31%;
   height: 2rem;
   border-radius: 5px;
   -webkit-box-pack: justify;
@@ -334,6 +334,21 @@ footer {
   color: #00b19d;
 }
 
+.products .pro h4 {
+  text-align: center;
+  top: 1rem;
+}
+
+.products .pro h6 {
+  color: #adc2bf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .products .pro .image {
   width: 94%;
   height: 12rem;
@@ -356,7 +371,7 @@ footer {
 .products .pro .image span {
   margin-top: 2rem;
   background-color: #ffffff;
-  color: green;
+  color: #d9e62c;
   padding: 0 8px;
 }
 
