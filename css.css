@@ -7,7 +7,6 @@ html body {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
 nav {
@@ -34,7 +33,7 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-flow: row;
           flex-flow: row;
-  height: 100%;
+  height: calc( 100% - 3rem);
 }
 
 .index {
@@ -71,6 +70,9 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
           flex-flow: column;
+  overflow-y: scroll;
+  border: 1px solid red;
+  height: calc( 100vh - 3rem);
 }
 
 .products {
@@ -86,11 +88,9 @@ main {
       justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  overflow: hidden;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  height: 100%;
 }
 
 .products article {
@@ -336,7 +336,7 @@ footer {
 
 .products .pro h4 {
   text-align: center;
-  top: 1rem;
+  margin: 0;
 }
 
 .products .pro h6 {
@@ -347,6 +347,7 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 2.5rem;
 }
 
 .products .pro .image {
@@ -379,5 +380,10 @@ footer {
   background-color: #ffffff;
   color: #000;
   padding: 2px 3px;
+}
+
+.shopee {
+  overflow-y: scroll;
+  height: calc( 80% - 30rem);
 }
 /*# sourceMappingURL=css.css.map */

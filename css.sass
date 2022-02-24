@@ -6,7 +6,7 @@ html
         height: 100%
         margin: 0
         padding: 0
-        overflow: hidden
+        
 
 nav
     background-color: #00b19d
@@ -20,8 +20,8 @@ nav
 .container-main
     display: flex
     flex-flow: row
-    height: 100%
-
+    height: calc( 100% - 3rem ) 
+    
 .index
     background-color: white
     height: 100%
@@ -43,6 +43,9 @@ main
     flex: 1
     display: flex
     flex-flow: column
+    overflow-y: scroll
+    border: 1px solid red
+    height: calc( 100vh - 3rem )
 
 .products
     margin-top: 2rem
@@ -50,9 +53,8 @@ main
     flex-flow: row
     justify-content: space-around
     flex-wrap: wrap
-    overflow: hidden
     flex: 1
-    height: 100%
+    
 
 .products
     article
@@ -160,6 +162,7 @@ footer
     flex-flow: row
     flex-wrap: wrap
     justify-content: left
+    
 
 .data
     article
@@ -238,14 +241,14 @@ footer
             color: #00b19d
         h4
             text-align: center
-            top: 1rem
+            margin: 0
+
         h6
-            color: #adc2bf  
+            color: #adc2bf
             display: flex
             justify-content: center
-            margin: 
-            
-                
+            margin-top: 2.5rem
+
         .image
             width: 94%
             height: 12rem
@@ -264,5 +267,7 @@ footer
             small
                 background-color: #ffffff
                 color: #000
-                padding: 2px 3px  
-                     
+                padding: 2px 3px
+.shopee
+    overflow-y: scroll
+    height: calc( 80% - 30rem)
